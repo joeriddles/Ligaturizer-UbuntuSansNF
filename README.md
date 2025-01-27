@@ -1,5 +1,11 @@
 # Ligaturizer #
 
+
+> [!IMPORTANT]  
+> Simply run `./build.sh` to generate patched version of UbuntuSans. Currently macOS is assumed.
+> 
+> Forked from https://github.com/ToxicFrog/Ligaturizer
+
 **Add ligatures to any coding font!**
 
 This script copies the ligatures (glyphs and rendering information) from [Fira Code](https://github.com/tonsky/FiraCode) into any other TrueType or OpenType font. (Note that the ligatures are scale-corrected, but otherwise copied as is from Fira Code; it doesn't create new ligature graphics based on the font you're modifying.)
@@ -14,6 +20,7 @@ This repo contains a [Fontforge python script](ligaturize.py) that you can use t
 **Script**: This script requires FontForge python bindings. For Debian/Ubuntu they are available in `python-fontforge` package. For OpenSUSE and NixOS, they are included in the `fontforge` package. For macOS, they are available via brew (`brew install fontforge`).
 
 ## Using the Script ##
+
 ### Automatic ###
 
 Use automatic mode to easily convert 1 or more font(s).
@@ -52,6 +59,8 @@ The font weight will be inherited from the original file; the font name will be 
 
 ## Misc. ##
 ### Credit ###
+Hard forked from https://github.com/ToxicFrog/Ligaturizer (git history reset).
+
 This script was originally written by [IlyaSkriblovsky](https://github.com/IlyaSkriblovsky) for adding ligatures to DejaVuSans Mono ([dv-code-font](https://github.com/IlyaSkriblovsky/dv-code-font)). [Navid Rojiani](https://github.com/rojiani) made a few changes to generalize the script so that it works for any font. [ToxicFrog](https://github.com/ToxicFrog) has made a large number of contributions.
 
 ### Contributions ###

@@ -22,5 +22,8 @@ if ! command -v fontforge >/dev/null; then
   brew install fontforge
 fi
 
-# build 'da font
+# Build 'da font
 make
+
+# Create .zip for release
+zip fonts/UbuntuSansMonoNerdFont.zip fonts/UbuntuSansMonoNerdFont/**
