@@ -1,4 +1,4 @@
-[submodule "fira"]
+[submodule "fonts/fira"]
 	path = fonts/fira
 	url = https://github.com/tonsky/FiraCode.git
 	shallow = true
