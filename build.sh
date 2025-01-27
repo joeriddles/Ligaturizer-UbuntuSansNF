@@ -17,7 +17,7 @@ if [ -z "$(ls -A 'fonts/UbuntuSansMonoNerdFont' )" ]; then
   unzip -d './fonts/UbuntuSansMonoNerdFont' -o UbuntuSans.zip
 fi
 
-# Make sure fontforge is installed
+# Make sure fontforge is installed, assumes macOS
 if ! command -v fontforge >/dev/null; then
   brew install fontforge
 fi
